@@ -4,9 +4,10 @@ body {
   line-height: 1;
 }
 
-/* i think this one is obvious, needed for the textarea input from the user */
+/* I think this one is obvious, needed for the textarea input from the user */
+/* I also set the bgcolor to initially be green and then change that color later as time passes */
 textarea {
-  background: transparent;
+  background-color: lightgreen;
   border: none;
   resize: none;
   color: #000000;
@@ -26,10 +27,10 @@ textarea {
   white-space: pre-wrap;
 }
 
-/* not exactly sure where i need to use .time-block just yet */
+/* adding this to small time block */
 .time-block {
+  padding: 10px;
   text-align: center;
-  border-radius: 15px;
 }
 
 /* using this .row for each li, each block of time // ok maybe for the date on the page? */

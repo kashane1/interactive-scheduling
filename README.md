@@ -3,7 +3,11 @@
 ## my process
 day 1. going to try and give it 1 good hour, get the skeleton of the code down, trying to comment more as i write things to stay on track.
 
-pseudo code: start with ul li. created a js file to look at those elements. then started using the given css file to help with labeling the correct classes.
+pseudo code: start with ul li. created a js file to look at those elements. Then started using the given css file to help with labeling the correct classes. There was enough starter code to basically finish the ul li portion of the assignment. As for the javascript, I had to start from scratch. I also had to brush up on more jquery techniques and it really helped me finish the assignment as well as make it look cleaner. 
+
+I found a good working solution for the color changing of the blocks as time passes. I did stumble a little with moment.js but soon found the best way to make the api work the way i needed it to.
+
+Day2. Gave it another good hour and was able to finish the assignment. I still want to go over it of course and make combine some of my repetitive code.
 
 
 ## Your Task
