@@ -45,31 +45,31 @@ if (currentHour >= 6 && amOrPm === 'pm') {
 
 // then setting the color orange for the when the currentHour is in that time block
 if (currentHour == 9 && amOrPm === 'am') {
-    $("#block1").children("textarea").css("backgroundColor", "orange");
+    $("#block1").children("textarea").css("backgroundColor", "red");
 }
 if (currentHour == 10 && amOrPm === 'am') {
-    $("#block2").children("textarea").css("backgroundColor", "orange");
+    $("#block2").children("textarea").css("backgroundColor", "red");
 }
 if (currentHour == 11 && amOrPm === 'am') {
-    $("#block3").children("textarea").css("backgroundColor", "orange");
+    $("#block3").children("textarea").css("backgroundColor", "red");
 }
 if (currentHour == 12 && amOrPm === 'pm') {
-    $("#block4").children("textarea").css("backgroundColor", "orange");
+    $("#block4").children("textarea").css("backgroundColor", "red");
 }
 if (currentHour == 1 && amOrPm === 'pm') {
-    $("#block5").children("textarea").css("backgroundColor", "orange");
+    $("#block5").children("textarea").css("backgroundColor", "red");
 }
 if (currentHour == 2 && amOrPm === 'pm') {
-    $("#block6").children("textarea").css("backgroundColor", "orange");
+    $("#block6").children("textarea").css("backgroundColor", "red");
 }
 if (currentHour == 3 && amOrPm === 'pm') {
-    $("#block7").children("textarea").css("backgroundColor", "orange");
+    $("#block7").children("textarea").css("backgroundColor", "red");
 }
 if (currentHour == 4 && amOrPm === 'pm') {
-    $("#block8").children("textarea").css("backgroundColor", "orange");
+    $("#block8").children("textarea").css("backgroundColor", "red");
 }
 if (currentHour == 5 && amOrPm === 'pm') {
-    $("#block9").children("textarea").css("backgroundColor", "orange");
+    $("#block9").children("textarea").css("backgroundColor", "red");
 }
 
 // now need to create local storage for each unique textarea when save button is clicked
@@ -106,7 +106,7 @@ for (var i = 1; i<10 ; i++){
     $("#block" + i + "").children("textarea").val(localStorage.getItem("blocktext"+i+""));
 };  
 
-// hmm. idk if this is possible rn. but maybe the load page one is still possible
+// idk if this is possible rn
 // i was trying for a combined way of saving each text area on each button click
 // for (var i = 1; i<10 ; i++){
 //     $("#block" + i).children("button").click(function() {
